@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair By Zee | Professional Hairstyling & Wigs</title>
+    <link rel="stylesheet" href="hair.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Hair by <span>Zee</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#wigs">Wigs</a></li>
+            <li><a href="#book">Book</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Transform Your Look</h1>
+            <p>Premium Hairstyling & Custom Wigs</p>
+            <button class="cta-btn" onclick="showBookingForm()">Book Consultation</button>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-scissors"></i>
+                <h3>Hairstyling</h3>
+                <p>From cuts to color transformations</p>
+            </div>
+            <!-- Add more service cards -->
+        </div>
+    </section>
+
+    <!-- Wig Products Section -->
+    <section class="wigs" id="wigs">
+        <h2>Premium Wigs</h2>
+        <div class="wig-grid">
+            <!-- JavaScript will populate wig cards -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 GlamHair Studio</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="hair.js"></script>
+</body>
+</html>
